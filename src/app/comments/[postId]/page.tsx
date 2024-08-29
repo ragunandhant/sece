@@ -11,7 +11,7 @@ import PostActions from '@/Components/PostActions';
 import share_svg from '../../../../public/share-svgrepo-com.svg'
 import { handleShare } from "@/services";
 
-// export const runtime = 'edge';
+export const runtime = 'edge';
 
 export default function CommentsPage() {
   const pathname = usePathname()

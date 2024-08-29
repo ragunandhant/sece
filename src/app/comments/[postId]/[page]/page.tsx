@@ -246,3 +246,5 @@ const fetchPosts = async () => {
     </div>
   );
 }
+
+export const runtime = 'edge';
