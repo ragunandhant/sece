@@ -230,7 +230,7 @@ const fetchPosts = async () => {
                 >
                   <BiSolidLike size={20} /> {comment.likeCount}
                 </button>
-                :
+                : 
                 <button
                   onClick={() => handleTimoutLike(comment.id)}
                   className="text-gray-500  flex items-center gap-x-1"
